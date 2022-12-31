@@ -3,7 +3,7 @@ local gameid = game.PlaceId
 
 if(gameid == 6191637341) then
 --Удаление стены
-for i,v in pairs(game:GetService("Workspace")["Christmas Map"]:GetDescendants()) do
+for i,v in pairs(game:GetService("Workspace")["Normal Map"]:GetDescendants()) do
 	if v.Name == "Part" then
 		if v.Color == Color3.fromRGB(255,255,0) then
 			v:Destroy()
